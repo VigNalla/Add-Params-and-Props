@@ -8,5 +8,5 @@ Download the Oracle InstantClient from this link
 https://download.oracle.com/otn_software/nt/instantclient/216000/instantclient-basic-windows.x64-21.6.0.0.0dbru.zip
 
 1. Copy the Parameters and Properties into the template files.
-2. Change the DB environment.
-3. Enter the username and password.
+2. Change the DB environment, as required.
+3. Update the file path, if required.
