@@ -11,7 +11,7 @@ def get_connection():
 
     dsn = cx_Oracle.makedsn("dev1-insight-oracle.cdtjnbhmqpam.us-east-1.rds.amazonaws.com",1521, service_name='insight')
 
-    con = cx_Oracle.connect('VIGNESH',
+    con = cx_Oracle.connect(username,
                             password,
                             dsn,
                             threaded=True)
@@ -46,6 +46,7 @@ def execute(query):
 if __name__ == '__main__':
     start_time = datetime.now()
     print(start_time)
+    username= input("User Name: ")
     password= input("Password: ")
     new_model_type_prop_ids = []
 
